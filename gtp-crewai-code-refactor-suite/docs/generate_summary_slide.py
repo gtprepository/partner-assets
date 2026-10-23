@@ -358,7 +358,7 @@ def build(prs):
     _txt(sl, "globaltechnologypartners.com",
          Inches(4.30), CTA_TOP + Inches(1.08), Inches(2.80), Inches(0.28),
          size=9, bold=True, color=GREEN, align=PP_ALIGN.RIGHT)
-    _txt(sl, "github.com/gtprepository/gtp-crewai-code-refactor-suite",
+    _txt(sl, "github.com/gtprepository/partner-assets",
          STRIPE + Inches(0.12), CTA_TOP + Inches(1.36), Inches(5.20), Inches(0.24),
          size=7.5, color=SUBTITLE)
 

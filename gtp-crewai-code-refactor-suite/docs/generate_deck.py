@@ -458,7 +458,7 @@ def slide_cta(prs):
     add_text(sl, "pjjeevan@gmail.com",
              Inches(9.8), Inches(6.0), Inches(3.0), Inches(0.45),
              font_size=14, bold=True, color=NAVY, align=PP_ALIGN.RIGHT)
-    add_text(sl, "github.com/gtprepository/gtp-crewai-code-refactor-suite",
+    add_text(sl, "github.com/gtprepository/partner-assets",
              Inches(7.5), Inches(6.42), Inches(5.3), Inches(0.45),
              font_size=11, color=NAVY, align=PP_ALIGN.RIGHT)
 
