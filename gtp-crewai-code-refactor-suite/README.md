@@ -76,7 +76,7 @@ main.py
 ```bash
 git clone https://github.com/gtprepository/partner-assets.git
 cd partner-assets/gtp-crewai-code-refactor-suite
-cd gtp-crewai-code-refactor-suite/code_refactor_crew
+cd code_refactor_crew
 
 py -3.12 -m venv .venv
 .venv\Scripts\activate          # Windows
