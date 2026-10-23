@@ -1,0 +1,7 @@
+[
+  {"policy_number": "POL-10001", "active": true,  "coverage_types": ["auto", "property"], "deductible": 500,  "limit": 50000},
+  {"policy_number": "POL-10002", "active": true,  "coverage_types": ["auto"],             "deductible": 1000, "limit": 30000},
+  {"policy_number": "POL-10003", "active": false, "coverage_types": ["auto", "property"], "deductible": 500,  "limit": 50000},
+  {"policy_number": "POL-10004", "active": true,  "coverage_types": ["property", "liability"], "deductible": 750, "limit": 200000},
+  {"policy_number": "POL-10005", "active": true,  "coverage_types": ["auto", "liability"], "deductible": 500,  "limit": 100000}
+]

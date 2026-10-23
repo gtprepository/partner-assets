@@ -1,0 +1,34 @@
+[
+  {
+    "id": "S1",
+    "alert": {"service": "checkout-api", "title": "p95 latency above 2s", "severity": "critical"},
+    "logs": ["12:01 WARN db pool exhausted, waiting for connection", "12:02 ERROR timeout acquiring connection from pool", "12:03 WARN db pool exhausted, waiting for connection"],
+    "metrics": {"db_connections_in_use": 100, "db_pool_size": 100, "cpu_pct": 41, "error_rate_pct": 6.2},
+    "recent_deploys": [{"version": "v2.14.0", "minutes_ago": 480}],
+    "expected": {"root_cause": "db_pool_exhaustion", "action": "scale_db_pool"}
+  },
+  {
+    "id": "S2",
+    "alert": {"service": "search-service", "title": "5xx error rate above 10%", "severity": "critical"},
+    "logs": ["09:14 ERROR NullPointerException in RankingFilter.apply", "09:14 ERROR NullPointerException in RankingFilter.apply", "09:15 ERROR request failed 500"],
+    "metrics": {"cpu_pct": 38, "error_rate_pct": 14.8},
+    "recent_deploys": [{"version": "v5.3.1", "minutes_ago": 12}],
+    "expected": {"root_cause": "bad_deploy", "action": "rollback_deploy"}
+  },
+  {
+    "id": "S3",
+    "alert": {"service": "report-worker", "title": "CPU above 95% for 10 minutes", "severity": "warning"},
+    "logs": ["03:10 INFO job batch size 20000", "03:11 INFO processing queue depth 48210"],
+    "metrics": {"cpu_pct": 97, "queue_depth": 48210, "error_rate_pct": 0.1},
+    "recent_deploys": [{"version": "v1.8.2", "minutes_ago": 2900}],
+    "expected": {"root_cause": "capacity_saturation", "action": "scale_out_service"}
+  },
+  {
+    "id": "S4",
+    "alert": {"service": "auth-service", "title": "disk usage above 90%", "severity": "info"},
+    "logs": ["07:00 INFO log rotation skipped", "07:00 INFO disk usage 91%"],
+    "metrics": {"disk_pct": 91, "cpu_pct": 12, "error_rate_pct": 0.0},
+    "recent_deploys": [],
+    "expected": {"root_cause": "unknown", "action": "none"}
+  }
+]

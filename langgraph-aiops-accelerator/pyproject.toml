@@ -1,0 +1,13 @@
+[project]
+name = "aiops-agent"
+version = "0.1.0"
+description = "LangGraph incident-response reference agent with human approval and an action allowlist"
+requires-python = ">=3.10"
+dependencies = ["langgraph>=0.2", "anthropic>=0.40"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
