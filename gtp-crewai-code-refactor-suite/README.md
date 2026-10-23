@@ -74,7 +74,8 @@ main.py
 ### Install
 
 ```bash
-git clone https://github.com/gtprepository/gtp-crewai-code-refactor-suite.git
+git clone https://github.com/gtprepository/partner-assets.git
+cd partner-assets/gtp-crewai-code-refactor-suite
 cd gtp-crewai-code-refactor-suite/code_refactor_crew
 
 py -3.12 -m venv .venv

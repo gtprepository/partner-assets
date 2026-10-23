@@ -6,7 +6,7 @@ Reference builds used when approaching AI product companies for technology partn
 |---|---|---|---|---|
 | `claude-claims-triage-agent` | Claude Partner Network | https://claude.com/partners | https://github.com/gtprepository/partner-assets/tree/main/claude-claims-triage-agent | Built; offline tests pass; live run on Claude not yet done |
 | `langgraph-aiops-accelerator` | LangChain Partner Network | https://www.langchain.com/langchain-partner-network-form | https://github.com/gtprepository/partner-assets/tree/main/langgraph-aiops-accelerator | Built; offline tests pass; live run on Claude not yet done |
-| `gtp-crewai-code-refactor-suite` | CrewAI (no formal partner programme found) and Anthropic | n/a | https://github.com/gtprepository/gtp-crewai-code-refactor-suite | Built earlier; partner claims removed from README, one-pager and decks; scanner/parser tests added; live run not repeated |
+| `gtp-crewai-code-refactor-suite` | CrewAI (no formal partner programme found) and Anthropic | n/a | https://github.com/gtprepository/partner-assets/tree/main/gtp-crewai-code-refactor-suite | Built earlier; partner claims removed from README, one-pager and decks; scanner/parser tests added; live run not repeated |
 
 Rules for anything shown externally:
 - Do not claim certifications or partner status GTP does not hold.

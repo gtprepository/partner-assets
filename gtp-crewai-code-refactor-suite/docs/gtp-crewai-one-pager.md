@@ -119,7 +119,7 @@ GTP offers a **complimentary 1-hour discovery session** to assess your legacy co
 
 | | |
 |--|--|
-| **GitHub** | github.com/gtprepository/gtp-crewai-code-refactor-suite |
+| **GitHub** | github.com/gtprepository/partner-assets/tree/main/gtp-crewai-code-refactor-suite |
 | **Contact** | pjjeevan@gmail.com |
 | **Built on** | CrewAI · Anthropic Claude |
 
